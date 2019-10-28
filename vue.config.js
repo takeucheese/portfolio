@@ -3,6 +3,8 @@ module.exports = {
     port: 8888,
     disableHostCheck: true,
   },
-  publicPath: '/',
+  publicPath: process.env.NODE_ENV === 'production'
+    ? '/portfolio/'
+    : '/',
   outputDir: 'docs',
 };

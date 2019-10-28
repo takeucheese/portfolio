@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.b13cbeaa920fa6267731f5293d22f3ac.js"
+  "/portfolio/precache-manifest.0e40d9236416881e84534a10b3896e3b.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "takeucheese.github.io"});
